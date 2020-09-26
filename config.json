@@ -2,6 +2,6 @@
     "prefix": ".",
     "token": "YOUR_TOKEN",
     "guild": "YOUR_SERVER_ID",
-    "category_rooms": "WHERE_THE_ROOMS_WILL_BE_CREATED",
-    "wait_voicechannel": "CHANNEL_THAT_THE_USER_WILL_HAVE_TO_WAIT_TO_PLAY"
+    "category_rooms": "WHERE_THE_ROOMS_WILL_BE_CREATED_ID",
+    "wait_voicechannel": "CHANNEL_THAT_THE_USER_WILL_HAVE_TO_WAIT_TO_PLAY_ID"
 }
