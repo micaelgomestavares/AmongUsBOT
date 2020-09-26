@@ -10,6 +10,6 @@
 
 Windows:
 
-```sh
+```
 npm i discord.js
 ```
