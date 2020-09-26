@@ -1,4 +1,4 @@
-# Nome do produto
+# AmongUsBOT
 > O AmongUsBOT é um bot que faz um sistema de fila para o seu servidor, os seus players podem esperar em um canal específico, entrarem na fila e esperarem outras 9 pessoas para jogarem juntos em uma sala separada do resto do grupo.
 
 [![NPM Version][npm-image]][npm-url]
@@ -8,7 +8,7 @@
 
 ## Instalação
 
-OS X & Linux:
+Windows:
 
 ```sh
 npm i discord.js
