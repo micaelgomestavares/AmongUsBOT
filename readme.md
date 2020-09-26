@@ -11,7 +11,7 @@ npm i discord.js
 ```
 
 <br>
-:config: Configure your bot, in 'config.json'
+:gear: Configure your bot, in 'config.json'
 
 ```
 {
