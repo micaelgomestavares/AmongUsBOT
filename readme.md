@@ -7,13 +7,27 @@
 :rocket:  Install all packages of the `package.json` on your Node project. This will download everything you need.
 
 ```
-npm i
+npm i discord.js
 ```
+
 <br>
-:bulb: After all the dependencies have been installed, run `index.js`
+:config: Configure your bot, in 'config.json'
 
 ```
-node index.js
+{
+    "prefix": ".",
+    "token": "YOUR_TOKEN",
+    "guild": "YOUR_SERVER_ID",
+    "category_rooms": "WHERE_THE_ROOMS_WILL_BE_CREATED_ID",
+    "wait_voicechannel": "CHANNEL_THAT_THE_USER_WILL_HAVE_TO_WAIT_TO_PLAY_ID"
+}
+```
+
+<br>
+:bulb: After all the dependencies have been installed and configure all configs, run `index.js`
+
+```
+node bot.js
 ```
 
 <br>
