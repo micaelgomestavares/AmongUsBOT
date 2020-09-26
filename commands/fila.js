@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const { addToQueue, hasUserOnQueue, sendEmbed, createRoom, items } = require('../queue.js');
+const { wait_voicechannel } = require('./config.json');
 
 module.exports = {
     name: 'fila',
@@ -11,7 +12,7 @@ module.exports = {
         const userId = message.author.id;
         const embedUserName = `**${message.author.username}**`;
 
-        const waitVoiceChannel = '758041316314841118';
+        const waitVoiceChannel = wait_voicechannel;
         const userVoiceChannel = message.member.voice.channel;
 
         // Verifica se o usuário está em algum canal de voz
