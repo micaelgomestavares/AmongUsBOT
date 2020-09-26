@@ -1,4 +1,5 @@
 const { Collection } = require('discord.js');
+const { serverID } = require('./config.json');
 
 let items = [];
 let rooms = 0;
@@ -34,7 +35,7 @@ const hasUserOnQueue = (element) => {
 }
 
 const createRoom = async (client, items) => {
-    const guild = client.guilds.cache.get("757430955165220933");
+    const guild = client.guilds.cache.get(serverID);
     guild.channels.create(`AmongUS - [${rooms++}]`, { type: 'voice', userLimit: 10, parent: '758056700896084080' }).then(result => {
         const newArray = items.slice(0, 10);
         newArray.forEach(item => {
