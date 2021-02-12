@@ -5,7 +5,6 @@ const { join } = require('path');
 const { readdirSync } = require('fs');
 
 const { prefix } = require('./config.json');
-
 const { commands } = require('./controllers/queue.js');
 
 const commandFiles = readdirSync(join(__dirname, 'commands')).filter(file => file.endsWith('.js'));
